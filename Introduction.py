@@ -2,6 +2,8 @@ print("Welcome to the fight for your freedom! We don't have much time, the break
 
 print("*Explosions and suppressed yelling in the distance.*")
 
+location = SuperMax_Prison_for_the_Insanely_Corrupt
+
 player_name = input("What's your name, degenerate?!")
 
 def inmate_introduction():
@@ -39,3 +41,11 @@ class Opponent(Character):
 
 
 
+
+# print(f"First thing's first, we need to get you out of this cell block.")
+
+# print(f"You look around the small, dark cell. Nothing is really visible, but something shiny by the cell door seems to catch your eye. Would you like to take a look?")
+
+# if user_choice = yes:
+#     print("There is a screwdriver on the floor. This could be useful in the future.")
+#     elif print("Okay, you beter hope that wasn't anything useful.")
