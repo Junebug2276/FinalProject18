@@ -25,4 +25,17 @@ if user _choice = yes:
 else:
     print("Sorry, it's too late to turn back now. Have fun!")
 
+class Player(Character):
+    """Class for the player's character"""
+
+    def __init__(seld, name, hp, weapon, attack, ):
+        Character.__init__(self, name, hp, weapon, attack)
+
+class Opponent(Character):
+    """Class for opponents"""
+
+    def __init__(self, name, hp, weapon, attack, ):
+        Character.__init__(self, name, hp, weapon, attack)
+
+
 
